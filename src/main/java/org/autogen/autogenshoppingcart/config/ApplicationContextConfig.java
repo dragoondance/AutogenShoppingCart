@@ -4,6 +4,12 @@ import java.util.Properties;
 
 import javax.sql.DataSource;
 
+import org.autogen.autogenshoppingcart.dao.AccountDAO;
+import org.autogen.autogenshoppingcart.dao.OrderDAO;
+import org.autogen.autogenshoppingcart.dao.ProductDAO;
+import org.autogen.autogenshoppingcart.dao.impl.AccountDAOImpl;
+import org.autogen.autogenshoppingcart.dao.impl.OrderDAOImpl;
+import org.autogen.autogenshoppingcart.dao.impl.ProductDAOImpl;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
