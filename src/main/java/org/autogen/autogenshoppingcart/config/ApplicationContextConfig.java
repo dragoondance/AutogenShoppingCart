@@ -90,7 +90,7 @@ public class ApplicationContextConfig {
         LocalSessionFactoryBean factoryBean = new LocalSessionFactoryBean();
          
         // Package contain entity classes
-        factoryBean.setPackagesToScan(new String[] { "org.o7planning.springmvcshoppingcart.entity" });
+        factoryBean.setPackagesToScan(new String[] { "org.autogen.autogenshoppingcart.entity" });
         factoryBean.setDataSource(dataSource);
         factoryBean.setHibernateProperties(properties);
         factoryBean.afterPropertiesSet();
